@@ -112,7 +112,7 @@ main {
   color: darkgray;
 }
 
-@media (min-width: 676px) {
+@media (min-width: 1245px) {
   body {
     margin: auto;
     width: 100%;
@@ -127,6 +127,7 @@ main {
   }
   .card {
     margin: 1em;
+    min-width: 375px;
   }
   header {
     display: flex;
